@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 100%;
+    background: #f8f8f8;
+}
+
+.header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: #f8f8f8;
+    background: #024e3b;
+    text-align: center;
+    border: 1px solid #bef5ec;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+.container-fluid .container .navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-image: -webkit-linear-gradient(270deg,rgba(0,253,107,1.00) 0%,rgba(0,253,107,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,253,107,1.00) 0%,rgba(0,253,107,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,253,107,1.00) 0%,rgba(0,253,107,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,253,107,1.00) 0%,rgba(0,253,107,1.00) 100%);
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 .btn.btn-lg {
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(222,255,158,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(222,255,158,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(222,255,158,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(222,255,158,1.00) 100%);
+}
+
+
+form, .content {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #f8f8f8;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: #f8f8f8;
+    background-color: #036b51;
+    border: none;
+    border-radius: 5px;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #cf47eb;
+    color: #ad32c5;
+    background: #f8f8f8;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success {
+    color: aqua;
+    background: aquamarine;
+    border: 1px solid rgb(169, 247, 221);
+    margin-bottom: 20px;
+}
+
+
